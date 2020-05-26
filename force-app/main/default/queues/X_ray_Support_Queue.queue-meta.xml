@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>X-ray Support Queue</name>
+    <queueMembers>
+        <users>
+            <user>james.cliftonvk@gmail.com</user>
+            <user>vladislav.kobrusev@cunning-goat-pcftzv.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>X_ray_Support</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

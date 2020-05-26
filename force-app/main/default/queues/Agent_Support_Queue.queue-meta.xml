@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Agent Support Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Service_Support_Group</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueRoutingConfig>MRI_Support</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

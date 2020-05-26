@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>MRI Support Queue</name>
+    <queueMembers>
+        <users>
+            <user>ivan.ivanov@gmail.com</user>
+            <user>pavel.sr@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>MRI_Support</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

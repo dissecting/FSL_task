@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>FirstFileName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FirstFileName</shortDescription>
+        <value>doc1</value>
+    </labels>
+    <labels>
+        <fullName>MainValue</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MainValue</shortDescription>
+        <value>Main</value>
+    </labels>
+    <labels>
+        <fullName>SA_TransferMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service Appointments successfully transferred message</shortDescription>
+        <value>Service Appointments successfully transferred: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SecondFileName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SecondFileName</shortDescription>
+        <value>doc2</value>
+    </labels>
+</CustomLabels>
